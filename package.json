@@ -1,0 +1,22 @@
+{
+    "author": "Martin Neubert <neubi4@gmail.com>",
+    "name": "zstats.js",
+    "version": "0.0.1",
+    "main": "./lib/zstats",
+    "keywords": [
+        "zabbix",
+        "zabbixapi",
+        "jsonrpc2"
+    ],
+    "homepage": "http://github.com/neubi4/zstats.js",
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/neubi4/zstats.js"
+    },
+    "dependencies": {
+        "zabbix": "*"
+    },
+    "engines": {
+        "node": "*"
+    }
+}
