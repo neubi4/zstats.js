@@ -1,0 +1,13 @@
+{
+    "host": "http://zabbix.server.com/api_jsonrpc.php",
+    "username": "username",
+    "password": "password",
+
+    "data": [
+        {
+            "key": "system.cpu.load[,avg5]",
+            "hosts": ["lb", "web1"],
+            "options": {}
+        }
+    ]
+}
